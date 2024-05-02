@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Recurso
+comment0.text=\n\ Recurso\ como\ URL\ o\ articulos\ sobre\ salud\ mental.\n\ \n\ @author\ Marcos\ Nitola\n\ @version\ 20240502\n
+comment1.params=autor\ titulo\ contenido\ tipo
+comment1.target=Recurso(ProfesionalSalud,\ java.lang.String,\ java.lang.String,\ Recurso.TipoRecurso)
+comment1.text=\n\ Constructor\ para\ la\ clase\ Recurso\n
+comment2.params=contenido
+comment2.target=boolean\ editarRecurso(java.lang.String)
+comment2.text=\n\ \n
+numComments=3

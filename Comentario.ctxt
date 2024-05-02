@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Comentario
+comment0.text=\n\ Comentario\ que\ sera\ incluido\ en\ alguna\ publicacion\n\ \n\ @author\ Marcos\ Nitola\ \n\ @version\ 20240502\n
+comment1.params=autor\ contenido
+comment1.target=Comentario(Usuario,\ java.lang.String)
+comment1.text=\n\ Constructor\ para\ la\ clase\ Comentario\n
+numComments=2

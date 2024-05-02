@@ -32,7 +32,7 @@ public class App
                     registrarse();
                     break;
                 case "2":
-                    System.out.println("xd");
+                    
                     break;
             }
         } while(!opt.equals("x"));
@@ -52,9 +52,9 @@ public class App
         if (opt.equals("s")){
             System.out.println("Escriba tu especialidad");
             String especialidad = sc.nextLine();
-            App.agregarUsuario(fabricaUsuario.crearUsuario(TipoUsuario.PROFESIONAL_SALUD,nombre,correo,contrasenna,especialidad));
+            App.agregarUsuario(fabricaUsuario.crearUsuario(nombre,correo,contrasenna,especialidad));
         } else if (opt.equals("n")){
-            App.agregarUsuario(fabricaUsuario.crearUsuario(TipoUsuario.USUARIO_COMUN,nombre,correo,contrasenna,null));
+            App.agregarUsuario(fabricaUsuario.crearUsuario(nombre,correo,contrasenna));
         }
         //Usuario nuevoUsuario = new Usuario(nombre,correo,contrasenna);
         System.out.println("Usuario creado exitosamente. Vuelva a iniciar sesion por seguridad.");

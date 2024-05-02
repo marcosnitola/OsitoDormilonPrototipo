@@ -10,12 +10,15 @@ public class FabricaUsuario
     
 
     /**
-     * Metodo crearUsuario
+     * Crea el usuario Profesional de la salud
      * 
-     * @param 
-     * @return     the sum of x and y 
+     * @param nombre Nombre profesional salud
+     * @param email Correo del profesional salud
+     * @param hashPass Hash contraseña profesional salud
+     * @param especialidad Especialidad del profesional
+     * @return usuario profesional de la salud 
      */
-    public Usuario crearUsuario(TipoUsuario tipo, String nombre, String email, String hashPass, String especialidad)
+    public Usuario crearUsuario(String nombre, String email, String hashPass, String especialidad)
     {
         Usuario usuario = null;
         if (nombre.length() <= 0 | nombre.length() > 512){
@@ -23,11 +26,28 @@ public class FabricaUsuario
             nombre = null;
         }
         
-        if (tipo == TipoUsuario.PROFESIONAL_SALUD){
-            usuario = new ProfesionalSalud(App.getUsuarioN()+1,nombre,email,hashPass, especialidad);
-        } else if (tipo == TipoUsuario.USUARIO_COMUN){
-            usuario = new UsuarioNormal(App.getUsuarioN()+1,nombre,email,hashPass);
+        usuario = new ProfesionalSalud(App.getUsuarioN()+1,nombre,email,hashPass, especialidad);
+        
+        return usuario;
+    }
+    
+    /**
+     * Crea el usuario normal
+     * 
+     * @param nombre Nombre usuario
+     * @param email Correo del usuario
+     * @param hashPass Hash contraseña del usuario
+     * @return usuario normal
+     */
+    public Usuario crearUsuario(String nombre, String email, String hashPass)
+    {
+        Usuario usuario = null;
+        if (nombre.length() <= 0 | nombre.length() > 512){
+            System.out.println("El nombre no puede estar vacio o ser demasiado largo");
+            nombre = null;
         }
+
+        usuario = new UsuarioNormal(App.getUsuarioN()+1,nombre,email,hashPass);
         
         return usuario;
     }

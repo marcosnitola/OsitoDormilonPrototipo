@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Publicacion
+comment0.text=\n\ Publicacion\ que\ realiza\ un\ usuario\ en\ una\ comunidad\n\ \n\ @author\ Marcos\ Nitola\ \n\ @version\ 20240502\n
+comment1.params=autor\ contenido
+comment1.target=Publicacion(Usuario,\ java.lang.String)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Publicacion\n\ @param\ autor\ Usuario\ autor\ de\ la\ publicacion\n\ @param\ contenido\ Contenido\ textual\ de\ la\ publicacion\n\ @param\ fecha\ Fecha\ en\ la\ que\ se\ publica\n
+comment2.params=contenido
+comment2.target=boolean\ editarContenido(java.lang.String)
+comment2.text=\n\ \n
+numComments=3

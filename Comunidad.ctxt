@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Comunidad
+comment0.text=\n\ Clase\ comunidad\ grupos\ para\ apoyo\n\ \n\ @author\ Marcos\ Nitola\ \n\ @version\ 20240502\n
+comment1.params=nombre\ descripcion
+comment1.target=Comunidad(java.lang.String,\ java.lang.String)
+comment1.text=\n\ Constructor\ de\ la\ clase\ Comunidad\n\ \n\ @param\ nombre\ Nombre\ de\ la\ comunidad\n\ @param\ descripcion\ Descripcion\ de\ la\ comunidad\n
+comment2.params=usuario
+comment2.target=void\ agregarUsuario(Usuario)
+comment2.text=\n\ A\u00F1ade\ usuarios\ a\ la\ lista\ de\ miembros\n\ \n\ @param\ usuario\ Usuario\ a\ ser\ a\u00F1adido\n
+comment3.params=id
+comment3.target=boolean\ eliminarUsuario(int)
+comment3.text=\n\ Elimina\ usuarios\ por\ su\ ID\n\ \n\ @param\ id\ ID\ del\ usuario\ a\ eliminar\n\ @return\ True\ si\ se\ pudo\ eliminar,\ false\ si\ no.\n
+numComments=4
