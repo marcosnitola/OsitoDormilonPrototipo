@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=FabricaUsuario
+comment0.text=\n\ Fabrica\ de\ tipos\ de\ usuario\n\ \n\ @author\ Marcos\ Nitola\ \n\ @version\ 20240501\n
+comment1.params=tipo\ nombre\ email\ hashPass\ especialidad
+comment1.target=Usuario\ crearUsuario(TipoUsuario,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment1.text=\n\ Metodo\ crearUsuario\n\ \n\ @param\ \n\ @return\ \ \ \ \ the\ sum\ of\ x\ and\ y\ \n
+numComments=2

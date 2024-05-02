@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=App
+comment0.text=\n\ Main\ class\n\ \n\ @author\ Marcos\ Nitola\n\ @version\ v0.1\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=void\ menu()
+comment3.params=
+comment3.target=void\ registrarse()
+comment4.params=usuario
+comment4.target=void\ agregarUsuario(Usuario)
+comment5.params=
+comment5.target=int\ getUsuarioN()
+numComments=6
